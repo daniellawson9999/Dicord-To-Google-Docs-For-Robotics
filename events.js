@@ -416,7 +416,7 @@ callback: a callback function
 function getOauth (Auth,callback){
   let clientSecret = Auth.secret.client_secret;
   let clientId = Auth.secret.client_id;
-  let redirectUrl = Auth.secret.redirect_uris[0];
+  let redirectUrl = "https://www.google.com/";
   let gAuth = new googleAuth();
   let oauth2Client = "";
   try{
